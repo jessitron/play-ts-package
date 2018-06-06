@@ -4,7 +4,7 @@
   "description": "Jess plays with ts and npm",
   "main": "lib/index.js",
   "scripts": {
-    "test": "mocha --register ts-node/register test/**/*.ts",
+    "test": "mocha --require ts-node/register test/**/*.ts",
     "build": "tsc --project ."
   },
   "repository": {
@@ -24,5 +24,8 @@
   "files": [
     "lib/**/*",
     "src/**/*"
-  ]
+  ],
+  "dependencies": {
+    "@types/mocha": "^5.2.1"
+  }
 }
