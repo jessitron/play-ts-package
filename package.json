@@ -1,6 +1,6 @@
 {
   "name": "@jessitron/play-ts-package",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Jess plays with ts and npm",
   "main": "lib/index.js",
   "scripts": {
